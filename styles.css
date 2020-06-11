@@ -9,7 +9,8 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: url("images/cool-background.jpg") no-repeat;
+  background-size: cover;
 }
 /* Link Styles */
 
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url("images/Background.jpg") no-repeat top center ;
+  background: url("images/lines.jpg") no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -93,14 +94,36 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: black;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  color: white;
 }
+
 .card:hover {
-  border-color: black;
+  border-color:yellow;
 }
+
+
+.card-goals {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: white;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  color:black;
+}
+
+
+.card-goals:hover {
+  border-color:yellow;
+
+}
+
 
 ul.skills {
   padding: 0;
@@ -129,6 +152,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: white;
 }
 
 footer ul {
