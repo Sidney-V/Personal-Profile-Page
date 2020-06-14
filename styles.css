@@ -2,6 +2,10 @@
 * { 
   box-sizing: border-box;
 }
+
+.fun{
+  list-style-type: "\1F44D"; // thumbs up sign
+}
   
 body {
   margin: 0;
@@ -101,6 +105,11 @@ header .profile-image:hover {
   color: white;
 }
 
+.card-border {
+  border-bottom: dotted white 5px;
+
+}
+
 .card:hover {
   border-color:yellow;
 }
@@ -116,6 +125,10 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
   color:black;
+}
+
+.border-goals{
+  border-bottom: dotted black 5px;
 }
 
 
@@ -138,6 +151,39 @@ header .profile-image:hover {
 
 .quotes:hover {
   border-color:yellow;
+}
+
+blockquote {
+  position: relative;
+  /* background: #ddd; */
+}
+
+blockquote:before {
+position: absolute;
+content: open-quote;
+font-size: 4em;
+margin-left: -0.6em;
+margin-top: -0.4em;
+}
+blockquote:after {
+position: absolute;
+content: close-quote;
+font-size: 4em;
+bottom: 0;
+right: 0;
+margin-right: -0.6em;
+margin-bottom: -0.8em;
+}
+blockquote p {
+display: inline;
+}
+/*Got this code at https://stackoverflow.com/questions/32909991/adding-quotes-to-blockquote*/
+
+
+
+span {
+  font-weight: bold;
+
 }
 
 
@@ -191,12 +237,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
