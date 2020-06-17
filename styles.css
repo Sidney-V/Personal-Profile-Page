@@ -23,7 +23,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: yellow;
 }
 
 /* Section Styles */
@@ -127,15 +127,17 @@ header .profile-image:hover {
   color:black;
 }
 
+.card-goals:hover {
+  border-color:yellow;
+
+}
+
+
 .border-goals{
   border-bottom: dotted black 5px;
 }
 
 
-.card-goals:hover {
-  border-color:yellow;
-
-}
 
 .quotes {
   margin: auto;
@@ -254,7 +256,7 @@ a.social:hover {
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
-      max-width: 1200px;
+      max-width: 1800px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
@@ -284,6 +286,21 @@ a.social:hover {
     margin: 40px auto;
   }
 
+/*Experience Page Only*/
+
+.no-decor {
+  list-style-type: none;
+
+}
+
+.bold {
+  font-weight: bold;
+
+}
+
+.no-margin{
+  margin: 0;
+}
 
 
 }
