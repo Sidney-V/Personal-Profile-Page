@@ -3,8 +3,8 @@
   box-sizing: border-box;
 }
 
-.fun{
-  list-style-type: "\1F44D"; // thumbs up sign
+.thumbs-up{
+  list-style-type: "\1F44D";
 }
   
 body {
@@ -160,6 +160,7 @@ blockquote {
   /* background: #ddd; */
 }
 
+/*Got this code at https://stackoverflow.com/questions/32909991/adding-quotes-to-blockquote*/
 blockquote:before {
 position: absolute;
 content: open-quote;
@@ -300,6 +301,10 @@ a.social:hover {
 
 .no-margin{
   margin: 0;
+}
+
+.image-br{
+  display: block;
 }
 
 
