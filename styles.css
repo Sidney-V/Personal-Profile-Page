@@ -307,5 +307,24 @@ a.social:hover {
   display: block;
 }
 
+figcaption{
+  color:white;
+}
+
+/*Contact page only*/
+.email:hover{
+  color:blue ;
+}
+
+.email {
+  text-decoration:underline;
+  color:black;
+}
+
+.phone {
+  text-decoration: underline;
+
+}
+
 
 }
