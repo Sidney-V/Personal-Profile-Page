@@ -124,7 +124,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  color:black;
+  color: black;
 }
 
 .card-goals:hover {
@@ -326,5 +326,17 @@ figcaption{
 
 }
 
+/*Photos page only*/
+
+.white-border{
+  border: solid white 10px;
+  border-radius: 20px;
+}
+
+.black-border{
+  border: solid black 10px;
+  border-radius: 20px;
+  
+}
 
 }
