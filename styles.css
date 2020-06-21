@@ -336,7 +336,15 @@ figcaption{
 .black-border{
   border: solid black 10px;
   border-radius: 20px;
-  
+  }
+
+.caption-black{
+  color: black;
 }
+
+.wrap {
+  flex-wrap: wrap;
+} 
+  
 
 }
